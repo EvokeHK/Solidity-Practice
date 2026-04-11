@@ -11,6 +11,15 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.0;
 
+contract Solver {
+    constructor() {
+        assembly {
+            mstore(0x00, 0x602a60005260206000f3)
+            return(0x00, 0x0a)
+        }
+    }
+}
+
 contract MagicNum {
     address public solver;
 
@@ -32,4 +41,3 @@ contract MagicNum {
             ___________\///_____\///////////////__
     */
 }
-
