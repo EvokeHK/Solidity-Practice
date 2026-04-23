@@ -1,6 +1,19 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.0;
 
+// objectives:
+// #Make it report bad price
+// #Steal atleast 1 token fully
+//   Things that might help:
+
+// How is the price of the token calculated?
+// How does the swap method work?
+// How do you approve a transaction of an ERC20?
+// Theres more than one way to interact with a contract!
+// Remix might help
+// What does "At Address" do?
+
+
 // import "openzeppelin-contracts-08/token/ERC20/IERC20.sol";
 // import "openzeppelin-contracts-08/token/ERC20/ERC20.sol";
 // import "openzeppelin-contracts-08/access/Ownable.sol";
